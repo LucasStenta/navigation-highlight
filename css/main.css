@@ -1,3 +1,24 @@
 html {
   box-sizing: border-box;
 }
+
+body {
+  line-height: 1.5;
+  font-family: Georgia, serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+header {
+background-color: #ffe500;
+display: inline-block;
+width: 100%;
+text-align: center;
+}
+
+nav ul li {
+display: inline-block;
+font-size: 1.125rem;
+margin: 0 0 .3rem;
+}
