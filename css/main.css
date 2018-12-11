@@ -22,3 +22,21 @@ display: inline-block;
 font-size: 1.125rem;
 margin: 0 0 .3rem;
 }
+
+*, *::before, *::after {
+box-sizing: inherit;
+}
+
+h1, h2 {
+font-family: "Sigmar One";
+color: #b20953;
+}
+
+img {
+display: block;
+width: 100%;
+}
+
+h2 {
+font-size: 1.875rem;
+}
