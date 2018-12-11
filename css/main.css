@@ -40,3 +40,36 @@ width: 100%;
 h2 {
 font-size: 1.875rem;
 }
+
+main {
+margin: 0;
+padding: 0 .75em;
+}
+
+.navigation a {
+text-decoration: none;
+color: white;
+background-color: #b2a212;
+padding: .4em .5em;
+border-radius: 4px;
+}
+
+.navigation a:hover {
+background-color: #cc1465;
+}
+
+.navigation .current {
+background-color: #b20953;
+}
+
+nav ul {
+list-style-type: none;
+margin: .3em 0;
+padding: 0;
+width: 100%;
+}
+
+h1 {
+font-size: 3rem;
+margin: 0;
+}
